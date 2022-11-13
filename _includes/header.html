@@ -1,0 +1,38 @@
+<nav class="rizoma-navbar navbar is-fixed-top" x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item logo-container" href="{% tl root %}">
+                <img src="/img/rizoma-logo.svg" class="logo">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+            </div>
+
+            <div class="navbar-end">
+                {% if page.show_nav %}
+                {% if site.data.navigation %}
+                {% for item in site.data.navigation %}
+                {% if item.permalink == 'blogs' %}
+                <a href="https://medium.com/rizoma-coop" target="_blank"
+                class="navbar-item {% if item.link == page.url %}is-active{% endif %} mx-3 rizoma-green has-text-weight-semibold">{%
+                if site.lang == "en" %}{{ item.name }}{% else %}{{ item.name_pt }}{% endif %}</a>
+                {% else %}
+                <a href="{% tl item.permalink %}"
+                    class="navbar-item {% if item.link == page.url %}is-active{% endif %} mx-3 rizoma-green has-text-weight-semibold {% if item.permalink == 'participar' %}is-red{% endif %}">{%
+                    if site.lang == "en" %}{{ item.name }}{% else %}{{ item.name_pt }}{% endif %}</a>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% endif %}
+                <a href="{% if site.lang == 'pt' %}/en{% endif %}{{ page.url}}"
+                    class="navbar-item {% if item.link == page.url %}is-active{% endif %} has-text-weight-semibold is-size-7 lang ml-3">{%
+                    if site.lang == "en" %}EN / PT{% else %}PT / EN{% endif %}</a>
+            </div>
+        </div>
+</nav>

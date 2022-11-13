@@ -1,0 +1,29 @@
+- name: Cooperative
+  name_pt: Cooperativa
+  link: /coop
+  permalink: coop
+# - name: Store
+#   name_pt: Mercearia
+#   link: /mercearia
+#   permalink: mercearia
+- name: Participate
+  name_pt: Participar
+  link: /participar
+  permalink: participar
+- name: Members
+  name_pt: Cooperantes
+  link: /members
+  permalink: members
+- name: Blogs
+  name_pt: Blogs
+  # Do not work, url hardcoded in _includes/header.html
+  link: https://medium.com/rizoma-coop
+  permalink: blogs
+- name: FAQ
+  name_pt: FAQ
+  link: /faq
+  permalink: faq
+- name: Contact
+  name_pt: Contacto
+  link: /contact
+  permalink: contact

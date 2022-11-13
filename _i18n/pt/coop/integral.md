@@ -1,0 +1,5 @@
+<p>Começámos por abrir uma mercearia comunitária, mas a cooperativa pode vir a ser muito mais que isso e ajudar a resolver mais problemas sociais e económicos do que apenas o do consumo alimentar. Por isso, registámo-nos como uma <strong>cooperativa multissetorial</strong>, que terá várias secções de atividade: a Secção de Consumo, que gere a Mercearia, é a única que está atualmente ativa, mas no futuro queremos abrir as Secções de Agricultura, Comercialização, Cultura, Serviços e até de Habitação.</p>
+
+<p>Isso significa que podemos integrar todo o tipo de projetos nessas áreas de atividade e que poderemos assim, a longo prazo, fornecer à comunidade dos membros uma ferramenta democrática para desenvolver uma economia comunitária e cooperativa.</p>
+
+<p>Quando um novo membro se junta à Rizoma, tem de escolher em que Secção/ões se quer inscrever e para cada uma há um mínimo de títulos sociais com que deve participar. Mas isso fica para mais tarde! Para já, apenas existe a de Consumo, e o mínimo são 3 títulos (5€ cada).</p>

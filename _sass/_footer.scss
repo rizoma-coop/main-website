@@ -1,0 +1,44 @@
+.footer {
+
+  p, li {
+    color: white;
+    font-size: 16px;
+
+    @include touch {
+      font-size: 14px;
+    }
+  }
+
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-size: 14px;
+
+  input {
+    background-color: rgb(40,40,40);
+    border: 2px solid white;
+    color: white;
+  
+    &::placeholder {
+      color: rgb(210,210,210);  
+    } 
+  }
+
+  .menu-list a, p a {
+    color: white;
+    border-radius: 99px;
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+    // padding: 0.5em 0.75em;
+
+    &:hover {
+      transition: 0.2s ease-in-out;
+      background-color: transparent;
+      color: $secondary;
+    }
+  }
+
+  ul, li {
+    padding: 0;
+    list-style: none;
+  }
+}

@@ -1,0 +1,98 @@
+.rizoma-navbar {
+  background: linear-gradient(
+    180deg,
+    #ffffff 32.29%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .navbar-item {
+    font-size: 14px;
+    line-height: 0.8;
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    margin-left: 0 !important;
+
+    .navbar-item {
+      padding: 0;
+      img {
+        max-height: none;
+      }
+    }
+  }
+
+  .logo-container {
+    @include touch {
+      margin-left: 20px;
+    }
+  }
+
+  .logo {
+    height: 48px;
+
+    @include desktop {
+      position: relative;
+    }
+  }
+
+  .navbar-menu {
+    .navbar-item {
+      transition: 0.2s ease-in-out;
+
+      @include touch {
+        padding: 1rem 0.75rem;
+      }
+
+      @include desktop {
+        max-height: 48px;
+      }
+
+      &:hover {
+        color: $secondary !important;
+      }
+
+      &.is-active {
+        color: $primary !important;
+
+        @include desktop {
+          border-bottom: 4px solid $primary;
+          padding-bottom: 3px;
+        }
+      }
+
+      &:hover,
+      &:active,
+      &.is-active {
+        background-color: transparent !important;
+        transition: 0.2s ease-in-out;
+      }
+
+      &.is-red {
+        background-color: $secondary !important;
+        color: white !important;
+        border-radius: 99px;
+        border-bottom: none;
+
+        &:hover {
+          background-color: darken($secondary, 5%) !important;
+        }
+      }
+
+      &.lang {
+        @include touch {
+          margin: 0 0.75rem;
+        }
+
+        @include desktop {
+          padding: 0 8px;
+          &:hover {
+            background-color: transparent !important;
+          }
+        }
+      }
+    }
+  }
+}

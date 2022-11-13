@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Montserrat:wght@300;400;600;700&display=swap");
+
+$family-sans-serif: "Montserrat", sans-serif;
+$primary: #1e817f;
+$secondary: #d3696d;
+
+$tabs-link-active-color: $primary;
+$tabs-link-active-border-bottom-color: $primary;
+
+$modal-content-width: 800px;
+
+@import "../node_modules/bulma/bulma.sass";
+
+$hero-darken: $dark !default;
+
+@import "../node_modules/bulma-block-list/src/block-list.scss";
+
+.has-navbar-fixed-top {
+  padding-top: 116px !important;
+}

@@ -1,0 +1,79 @@
+.rizoma-green {
+  color: #1e817f !important;
+}
+
+.rizoma-red {
+  color: #d3696d !important;
+}
+
+.rizoma-red-bg {
+  background-color: #d3696d !important;
+}
+
+.rizoma-green-bg {
+  background-color: #1e817f !important;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.message {
+  background-color: rgba(192, 224, 181, 0.4);
+  .message-body {
+    border: none;
+  }
+  .message-header {
+    background-color: rgba(192, 224, 181, 1);
+  }
+}
+
+.button {
+  height: auto !important;
+  white-space: normal !important;
+
+  &.is-secondary {
+    font-weight: 600;
+    background-color: $secondary;
+    color: white;
+    border-radius: 99px;
+    border-color: $secondary;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      transition: 0.2s ease-in-out;
+      background-color: darken($secondary, 5%);
+      border-color: darken($secondary, 5%);
+    }
+  }
+}
+
+.line {
+  width: 120px;
+  height: 7px;
+  border-radius: 99px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1.5em auto 4em auto;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+.text-content {
+  max-width: 690px;
+  margin: auto;
+
+  p {
+    text-align: left;
+  }
+}
+
+.has-small-text {
+  font-size: 16px;
+
+  @include touch {
+    font-size: 14px;
+  }
+}

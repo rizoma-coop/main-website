@@ -1,0 +1,132 @@
+home:
+  title: 'Mercearia <span class="rizoma-green">comunitária</span><br> em Lisboa'
+  tagline: Produtos responsáveis a preços justos,<br> de e para a comunidade
+  about_us: Ri - Zo - Ma
+  wwo: O que oferecemos
+  wwo_quality_products: Produtos de qualidade
+  wwo_quality_products_text: We focus on high-quality, local, organic, and seasonal products.
+  wwo_prices: Preço justo e emprego digno
+  wwo_prices_text: Tentamos garantir preços justos para consumidores e produtores sendo um intermediário sem fins lucrativos.
+  wwo_local: Regional e sazonal
+  wwo_local_text: "Pretendemos apoiar os produtores locais. Valorizamos o que há em abundância ao nosso redor antes de satisfazer os nossos desejos fora da estação."
+  wwo_transparency: Transparência
+  wwo_transparency_text: Na escolha de produtos, nos preços, na gestão da cooperativa e na relação com produtores.
+  wwo_packaging: Ecologicamente responsável
+  wwo_packaging_text: Damos prioridade aos produtos com a menor pegada ambiental possível.
+  wwo_community: Comunidade
+  wwo_community_text: Um grupo de cooperantes proativos, conscientes e colaborativos. Relação direta entre consumidores e produtores.
+  wwo_education: Educação
+  wwo_education_text: Conhecimento de onde vem e como é produzida a tua comida, e como gerir e participar numa iniciativa cidadã e horizontal.
+  member: Como participar?
+  member_intro: "Qualquer pessoa pode tornar-se membro da Rizoma:"
+  member_shares: Participa com 15€ ou mais no capital social da cooperativa.
+  member_work: Trabalha 3 horas a cada 4 semanas.
+  member_consume: Consome e participa na vida da Rizoma!
+  participate: Participar
+  contact: Contacto
+  agradecemos: "Agradecemos o apoio de:"
+
+mercearia:
+  find_us: "Onde:"
+  open: "Quando:"
+
+coop:
+  title: "Cooperativa Integral"
+  org_title: "Organização e o processo de decisão"
+  gt_img_title: "Os Grupos de Trabalho (GT): Café, Comunidade & Comunicação externa, Espaço, Finanças, Governança, IT, Membros & Comunicação interna, Produtos"
+  regulamentos: "Regulamentos:"
+  regulamentos_interno: "Regulamento Interno Geral da Rizoma"
+  regulamentos_consumo: "Regulamento da Secção de Consumo"
+  otherdocs: "Outros Documentos:"
+  otherdocs_estatuto: "Estatutos"
+
+faq:
+  title: Perguntas frequentes
+  q1: Quem pode fazer compras na Rizoma?
+  a1: Apenas os membros/cooperantes.
+  q2: Posso levar um não-membro?
+  a2: Sim! Cada membro pode ir fazer compras na Rizoma acompanhado por um não-membro.
+  q3: Os meus amigos ou a minha família podem fazer compras por mim?
+  a3: Em situações extraordinárias, caso os horários de abertura da Rizoma não coincidam de todo com os teus, podes delegar num amigo ou num familiar, que poderá fazer compras em teu nome de forma permanente. O teu turno de trabalho, por outro lado, não é transferível.
+  q4: O meu filho pode fazer compras em meu nome?
+  a4:
+    "Os teus filhos são bem-vindos para fazer compras usando o teu cartão/número de membro até aos 14 anos.
+    <br>Porquê 14 anos?
+    <br>Acreditamos que a Rizoma beneficia imenso da diversidade das pessoas que a constituem. Por isso, quando fizerem 14 anos (que é o mínimo legal para se poderem tornar membros), queremos acolher os teus filhos, para que sejam parte ativa das escolhas da cooperativa."
+  q5: As pessoas que não são membros da Rizoma podem entrar na mercearia?
+  a5: Podem! Se ainda não és membro, mas queres espreitar o que a mercearia da Rizoma tem para oferecer, vem dar uma vista de olhos.
+  q6: Como é organizado o trabalho dentro da Rizoma?
+  a6: O turno normalmente dura 3 horas e é pedido a cada cooperante que faça um turno de 4 em 4 semanas. A maioria dos trabalhos são organizados de forma periódica, porém,  existem alguns trabalhos que necessitam de cooperantes com disponibilidades flexíveis.
+  q7: Como é coordenado o trabalho dentro da Rizoma?
+  a7:
+    "Cada Equipa da mercearia, ou seja, cada “tipo de trabalho” (caixa, reposição, receção de produtos, limpezas, etc.) tem um coordenador responsável por informar o resto da equipa das variações logísticas do trabalho e de organizar eventuais formações.
+    <br>Se tiveres alguma dúvida relacionada com as funções da tua Equipa de trabalho, contacta o teu Coordenador de Equipa.
+    <br>Além disso, está sempre presente na mercearia um cooperante responsável por registar as presenças (e eventuais ausências), os turnos e os imprevistos no trabalho da mercearia: é o Apoio do Dia."
+  q8: Posso mudar de turno?
+  a8:
+    "Se o turno que escolheste já não te dá jeito ou, por qualquer razão, queres mudar de Turno ou de Equipa, contacta o Grupo de Trabalho responsável pela gestão dos membros (gt-membros@rizomacoop.pt). Eles poderão ajudar-te a encontrar o Turno e a Equipa melhores para ti.
+    <br>Se, pelo contrário, estás contente com o teu trabalho na Rizoma, mas, pontualmente, precisas de trocar de turno, lembra-te que isso só é possível dentro da tua Equipa de trabalho ou com pessoas que recentemente trabalharam na tua Equipa. Ou seja, se trabalhares na caixa, só podes trocar com os outros trabalhadores da caixa, e assim por diante. Usa os canais de comunicação da tua Equipa para encontrar alguém disponível para a troca."
+  q9: O que acontece se eu faltar a um turno?
+  a9:
+    "Se te aperceberes que não vais poder comparecer no teu turno de trabalho, por favor, contacta o mais cedo possível o teu Coordenador de Equipa e o Grupo de Trabalho responsável pela gestão dos membros (gt-membros@rizomacoop.pt), para juntos encontrarem uma solução que não deixe o turno desfalcado.
+    <br>Atenção: Se não comunicares ao teu Coordenador de Equipa que vais faltar ao turno com, pelo menos, 24 horas de antecedência, isso será considerado uma ausência não justificada e, como tal,  vais ter de agendar um novo turno, para compensar o que faltaste."
+  q10: Faltei alguns turnos seguidos sem avisar. O que posso fazer?
+  a10: Se faltaste a dois turnos seguidos sem avisar, o teu turno de trabalho foi atribuído a outro cooperante e ficaste automaticamente excluído da possibilidade de fazer compras na mercearia. Se quiseres voltar a ser membro ativo da Rizoma, contacta o Grupo de Trabalho responsável pela gestão dos membros (gt-membros@rizomacoop.pt) para acordar como poderás recuperar os turnos em falta e para escolheres um novo turno de trabalho.
+  q11: O que acontece se estiver fora por um longo período?
+  a11:
+    "Se viajares ou estiveres impossibilitado de trabalhar no teu turno habitual durante um período de cerca de 8 semanas ou mais (ou seja, pelo menos 2 turnos seguidos), podes pedir para ser suspenso dos turnos (e, ao mesmo tempo, perdes a possibilidade de fazer compras na mercearia).
+    <br>Atenção: É possível que, durante a tua ausência, o teu turno seja atribuído de forma permanente a outro cooperante. Por isso, se gostares mesmo muito do teu turno de trabalho e estiveres a planear estar ausente por poucos turnos seguidos, considera a opção de arranjar uma troca pontual para os turnos a que vais faltar."
+  q12: Tenho mais de 65 anos. Tenho de trabalhar na Rizoma?
+  a12: É nossa convicção que a Rizoma pode oferecer um tipo de trabalho apto para cada um dos seus membros, pelo que sugerimos que contactes o Grupo de Trabalho responsável pela gestão dos membros (gt-membros@rizomacoop.pt) para te ajudar a encontrar o trabalho melhor para ti. Apesar disso, se tiveres mais de 65 anos, podes escolher não trabalhar na Rizoma, mas sempre garantindo o teu direito de fazer compras na mercearia.
+  q13: Estou grávida ou acabei de ter um filho. Tenho de trabalhar na Rizoma?
+  a13: O nascimento de um bebé ou a adoção de uma criança dão direito ao cooperante a um período de isenção do trabalho com 12 meses de duração. Se ambos os pais forem cooperantes, podem decidir entre si como partilhar estes 12 meses.
+  q14: Sou portador de deficiência. Tenho de trabalhar na Rizoma?
+  a14: É nossa convicção que a Rizoma pode oferecer um tipo de trabalho apto para cada um dos seus membros, pelo que sugerimos que contactes o Grupo de Trabalho responsável pela gestão dos membros (gt-membros@rizomacoop.pt) para te ajudar a encontrar o trabalho melhor para ti. Apesar disso, se fores portador de deficiência ou cuidador informal de doentes crónicos ou de portadores de deficiência, podes escolher não trabalhar na Rizoma, mas sempre garantindo o teu direito de fazer compras na mercearia.
+  q15: O que tenho de fazer se quiser sair da Rizoma?
+  a15: Em qualquer momento que queiras, podes escolher sair da Rizoma e o valor dos teus títulos sociais da cooperativa ser-te-á restituido.
+  q16: Posso ser expulso da Rizoma?
+  a16: Atualmente a única forma de ser “expulso” da Rizoma é ficar ausente por um período superior a um ano.
+
+contact:
+  inquiries: Assuntos gerais
+  inquiries_text: Podes contactar-nos caso tenhas alguma dúvida. Vemos os nossos e-mails diariamente.
+  request: Sugerir ou pedir um produto
+  request_text: "Queres vender os teus produtos na Rizoma ou sugerir um produtor à nossa equipa? Escreve para:"
+  social_networks: Redes sociais
+
+members:
+  gt_description_title: Junta-te aos nossos grupos de trabalho
+  gt_description_description: O núcleo da organização da Rizoma são os seus grupos de trabalho ("GT").
+  gt_description_additional: Se queres saber mais, inscreve-te numa Sessão de Boas Vindas ou escreve para 
+  gt_description_email: geral@rizomacoop.pt
+  gt_description_link: Grupos de Trabalho (GT) descrições
+  gt_description_link_url: https://docs.google.com/presentation/d/14pyb6qj3yRvAMiWw1AqQokIRVfX04S8bEJr5yU0g9eE
+  calendar_title: Calendários úteis
+  calendar_description: Saber quando coisas importantes acontecem na Rizoma
+  public_calendar_link_url: https://calendar.google.com/calendar/embed?src=c_2tsctvtd7e6rs4c00heuhjgkeg%40group.calendar.google.com&ctz=Europe%2FLisbon
+  public_calendar_link: Eventos públicos na Rizoma
+
+participate:
+  title: Participar
+  intro: Precisamos de mais pessoas para fazer crescer a nossa cooperativa e mercearia! Com mais cooperantes, podemos alargar as horas de abertura, oferecer mais produtos e avançar com projetos interessantes.
+  member_title: O que esperamos de ti?
+  give_a_hand: Dar uma mãozinha
+  support_us: Apoia-nos com uma doação!
+  donate: Doar
+  donate_by_transfer: Doar por transferência bancária
+  donate_by_card: Doar por cartão de credito
+  donate_select_amount: Escolha um montante
+  donate_account_holder: Beneficiário
+  donate_no_fee: Sem taxa 🙂
+  donate_fee: Rizoma paga 1.4% de taxa 😕
+  donate_mbway: Doar por MBWAY
+  phone_number: Número de telemóvel
+  boas-vindas: Sessão Boas-Vindas
+  boas-vindas_intro: Estás prestes a juntar-te à primeira mercearia comunitária em Lisboa. Esta sessão é obrigatória, mas podes vir sem compromisso.
+  boas-vindas_signup: Inscreve-te numa Sessão de Boas-Vindas
+
+footer:
+  subscribe: Subscreve a nossa newsletter.
+  stay_tuned: "Fica a par das novidades:"
+  sub: Subscreve
+  moving: ESTAMOS EM MUDANÇAS - NOVIDADES EM BREVE!

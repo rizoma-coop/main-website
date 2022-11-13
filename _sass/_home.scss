@@ -1,0 +1,92 @@
+.home {
+  section {
+    margin: 80px auto;
+
+    @include touch {
+      margin: 60px auto;
+    }
+  }
+
+  #shop {
+    max-width: 45%;
+    top: 33%;
+
+    @include touch {
+      max-width: 50%;
+    }
+  }
+
+  #bike {
+    top: 60%;
+
+    @include touch {
+      top: 70%;
+    }
+  }
+
+  #buildings {
+    top: 14%;
+    @include touch {
+      top: 20%;
+    }
+  }
+}
+
+.box {
+  box-shadow: 0px 4px 64px 1px rgba(118, 118, 118, 0.15);
+  padding: 32px;
+}
+
+.tile {
+  .box {
+    flex-grow: unset;
+  }
+  @include desktop {
+    h3 {
+      text-align: left;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.about {
+  p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.6;
+
+    @include touch {
+      font-size: 20px;
+    }
+  }
+}
+
+.become-member {
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  h3 {
+    min-width: 90px;
+    margin-bottom: 0;
+  }
+  p {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 20px;
+
+    @include touch {
+      font-size: 16px;
+    }
+  }
+}
+
+.bg-pattern {
+  background-image: url(/img/pattern.svg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 75%;
+}

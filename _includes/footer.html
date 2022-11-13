@@ -1,0 +1,52 @@
+<footer class="footer mt-6">
+    <div class="container">
+        <div class="columns is-mobile is-multiline">
+            <div class="column is-hidden-mobile">
+                <img src="img/rizoma-logo-white.svg" height="120px" width="120px" />
+            </div>
+            <div class="column is-one-third-desktop is-half-mobile">
+                <p class="has-text-weight-bold">{% t mercearia.find_us %}</p>
+                {% tf mercearia/morada.md %}
+            </div>
+            <div class="column is-hidden-mobile">
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="mb-1"><a href="{% tl faq %}">FAQ</a></li>
+                        <li class="mb-1"><a href="{% tl coop %}#regulamentos">Regulamentos</a></li>
+                        <li class="mb-1"><a href="{% tl contact %}">{% t home.contact%}</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/rizomacoop.pt" class="is-inline-block"><i
+                                    class="fab fa-facebook fa-2x"></i></a>
+                            <a href="https://www.instagram.com/rizomacoop.pt/" class="is-inline-block"><i
+                                    class="fab fa-instagram fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-one-third-desktop">
+                <p class="mb-3">{% t footer.stay_tuned %}</p>
+                <form
+                    action="https://rizomacoop.us10.list-manage.com/subscribe/post?u=72907f40fe77abcdd9191367d&amp;id=9180286076"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div class="field is-grouped-multiline email-form">
+                        <div class="control is-expanded input-container">
+                            <input class="email input is-flex-touch" placeholder="Your email address" type="email"
+                                value="" name="EMAIL" id="mce-EMAIL" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                    name="b_72907f40fe77abcdd9191367d_9180286076" tabindex="-1" value=""></div>
+                        </div>
+                        <p class="control">
+                        <div class="clear button-container"><input type="submit" value="{% t footer.sub %}"
+                                name="subscribe" id="mc-embedded-subscribe" class="button is-secondary"></div>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <p class="has-text-centered mt-5">
+        © 2021 Rizoma Cooperativa Integral
+    </p>
+</footer>
