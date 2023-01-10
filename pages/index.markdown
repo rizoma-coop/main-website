@@ -110,6 +110,7 @@ hide_hero: true
       <a href="https://www.bairrossaudaveis.gov.pt/" target="_blank" rel="noopener noreferrer" style="flex: 1;">
       <img src="/img/bairros_saudaveis.svg" style="max-width: 350px;" />
       </a>
+       <img src="/img/Logo_BIP-ZIP_A_semfundo_cor.PNG" style="max-width: 350px;" />
       </div>
     </div>
   </section>
